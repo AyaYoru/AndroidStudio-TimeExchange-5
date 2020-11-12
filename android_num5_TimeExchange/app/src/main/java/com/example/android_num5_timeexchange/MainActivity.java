@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button = (Button)findViewById(R.id.b1);
+        Button button = (Button)findViewById(R.id.button1);
         button.setOnClickListener(theTime);
     }
     
@@ -25,12 +25,12 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             DecimalFormat time = new DecimalFormat("0");
-            EditText year = (EditText)findViewById(R.id.e1);
-            EditText mouth = (EditText)findViewById(R.id.e2);
-            EditText day = (EditText)findViewById(R.id.e3);
-            EditText hour = (EditText)findViewById(R.id.e4);
-            EditText minute = (EditText)findViewById(R.id.e5);
-            EditText secord = (EditText)findViewById(R.id.e6);
+            EditText year = (EditText)findViewById(R.id.edit1);
+            EditText mouth = (EditText)findViewById(R.id.edit2);
+            EditText day = (EditText)findViewById(R.id.edit3);
+            EditText hour = (EditText)findViewById(R.id.edit4);
+            EditText minute = (EditText)findViewById(R.id.edit5);
+            EditText secord = (EditText)findViewById(R.id.edit6);
 
             int years = Integer.parseInt(year.getText().toString());
             int mouths = Integer.parseInt(mouth.getText().toString());
