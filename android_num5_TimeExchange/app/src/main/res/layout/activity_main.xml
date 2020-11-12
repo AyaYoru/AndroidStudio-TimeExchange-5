@@ -187,7 +187,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/b1"
+        android:id="@+id/button1"
         style="@android:style/Widget.Button"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -202,7 +202,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/e1"
+        android:id="@+id/edit1"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="58dp"
@@ -215,7 +215,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/e2"
+        android:id="@+id/edit2"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="78dp"
@@ -228,7 +228,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/e3"
+        android:id="@+id/edit3"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="78dp"
@@ -241,7 +241,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/e4"
+        android:id="@+id/edit4"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -254,7 +254,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/e5"
+        android:id="@+id/edit5"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="171dp"
@@ -267,7 +267,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/e6"
+        android:id="@+id/edit6"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="242dp"
